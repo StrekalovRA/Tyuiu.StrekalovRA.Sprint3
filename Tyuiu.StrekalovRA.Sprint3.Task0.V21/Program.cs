@@ -1,4 +1,5 @@
-﻿using Tyuiu.StrekalovRA.Sprint3.Task0.V21.Lib;
+﻿using System.Runtime.Intrinsics.Arm;
+using Tyuiu.StrekalovRA.Sprint3.Task0.V21.Lib;
 
 namespace Tyuiu.StrekalovRA.Sprint3.Task0.V21
 {
@@ -6,7 +7,7 @@ namespace Tyuiu.StrekalovRA.Sprint3.Task0.V21
     {
         static void Main(string[] args)
         {
-            Console.Title = "Спринт #3 | Выполнил: Стрекалов Р. А. | Смартб-24-1";
+            //Console.Title = "Спринт #3 | Выполнил: Стрекалов Р. А. | Смартб-24-1";
             /*
                 Спринт #3 
                 Тема: Оператор цикла for
@@ -34,3 +35,5 @@ namespace Tyuiu.StrekalovRA.Sprint3.Task0.V21
         }
     }
 }
+
+//-4 12 -14 4 22 19 12 18 -8 -8

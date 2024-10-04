@@ -10,8 +10,9 @@ namespace Tyuiu.StrekalovRA.Sprint3.Task0.V21.Lib
             for (int J = Start; J <= End; J += 1)
             {
                 Res += ((Math.Pow(A, J) + (1 / 4)) * Math.Sin(J));
+                Console.WriteLine(J + " " + ((Math.Pow(A, J) + (1 / 4)) * Math.Sin(J)) + " " + Res);
             }
-            return -1.3;
+            return Math.Round(Res, 3);
         }
     }
 }
