@@ -6,11 +6,11 @@ namespace Tyuiu.StrekalovRA.Sprint3.Task4.V23.Lib
     {
         public double Calculate(int ST, int END)
         {
-            double Res = 0;
+            double Res = 1;
 
             for (int X = ST; X <= END; X += 1) {
                 if (X == 0) { continue; }
-                Res += ((Math.Cos(X) / X) + 3);
+                Res *= ((Math.Cos(X) / X) + 3);
             }
             return Math.Round(Res, 3);
         }
