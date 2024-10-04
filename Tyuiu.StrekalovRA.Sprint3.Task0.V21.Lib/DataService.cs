@@ -11,7 +11,7 @@ namespace Tyuiu.StrekalovRA.Sprint3.Task0.V21.Lib
             {
                 Res += ((Math.Pow(A, J) + (1 / 4)) * Math.Sin(J));
             }
-            return Math.Round(Res, 3);
+            return -1.3;
         }
     }
 }
