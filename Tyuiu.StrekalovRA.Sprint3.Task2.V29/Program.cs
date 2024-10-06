@@ -1,6 +1,6 @@
-﻿using Tyuiu.StrekalovRA.Sprint3.Task0.V21.Lib;
+﻿using Tyuiu.StrekalovRA.Sprint3.Task2.V29.Lib;
 
-namespace Tyuiu.StrekalovRA.Sprint3.Task0.V21
+namespace Tyuiu.StrekalovRA.Sprint3.Task2.V29
 {
     internal class Program
     {
@@ -9,14 +9,14 @@ namespace Tyuiu.StrekalovRA.Sprint3.Task0.V21
             //Console.Title = "Спринт #3 | Выполнил: Стрекалов Р. А. | Смартб-24-1";
             /*
                 Спринт #3 
-                Тема: Оператор цикла for
-                Задание #0
-                Вариант #21
+                Тема: Оператор цикла do-while
+                Задание #2
+                Вариант #29
                 Выполнил: Стрекалов Роман Алексеевич | Смартб-24-1
 
                 УСЛОВИЕ:
-                Написать программу используя цикл for, которая вычисляет сумму ряда по формуле, при a=1,5
-                R = Sum(k=1; k=13): (a^k+1/4)sink
+                Написать программу используя цикл do...while, которая вычисляет сумму ряда по формуле, при a=0,5
+                Y = sum(1;18)(a^k+1/4)cosk
              */
 
             double A;

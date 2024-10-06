@@ -1,17 +1,18 @@
 ﻿
-double s0 = 0;
-double s1 = 0;
-int x = 2;
-for (int j = 1; j <= 3; j++)
+int[] a = new int[] { 8, 8, 3, 0, 8, 6 };
+int p = 0;
+for(int i =0; i < a.Length; i++)
 {
-    for(int k = 1; k<=3; k++)
+    if (a[i]%2!=0)
     {
-        s0 = 2 * k-x;
-        s1 += s0;
+        p += a[i];
     }
 }
-Console.WriteLine(s1);
+
+Console.WriteLine(p + " " + ((-7)%2));
 /*
-90 54 45 54 108 90
-36 9 36 18
+!29 3 -15 15 2 32 4 18 4 4
+3 10 -16 12 4 6 3 3 2  2
+
+24 22 20 4 8 -6 -4 4 -12 18
 */
