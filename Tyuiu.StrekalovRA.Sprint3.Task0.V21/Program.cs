@@ -22,11 +22,15 @@ namespace Tyuiu.StrekalovRA.Sprint3.Task0.V21
             double A;
             int ST, END;
             Console.WriteLine("A = ");
-            A = Convert.ToDouble(Console.ReadLine());
+            //A = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Start = ");
-            ST = Convert.ToInt16(Console.ReadLine());
+            //ST = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("End = ");
-            END = Convert.ToInt16(Console.ReadLine());
+            //END = Convert.ToInt16(Console.ReadLine());
+
+            A = 1.5;
+            ST = 1;
+            END = 13;
 
             DataService DS = new DataService();
             Console.WriteLine("РЕЗУЛЬТАТ: " + DS.GetSumSeries(A, ST, END));

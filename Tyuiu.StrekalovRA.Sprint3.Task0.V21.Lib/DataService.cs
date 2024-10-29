@@ -9,9 +9,10 @@ namespace Tyuiu.StrekalovRA.Sprint3.Task0.V21.Lib
             double Res = 0;
             for (int J = Start; J <= End; J += 1)
             {
-                Res += ((Math.Pow(A, J) + (1 / 4)) * Math.Sin(J));
+                Res += ((Math.Pow(A, J) + 0.25) * Math.Sin(J));
             }
-            return Math.Round(Res, 3);
+            Res = Math.Round(Res, 3);
+            return Res;
         }
     }
 }
