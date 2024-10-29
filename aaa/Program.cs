@@ -1,18 +1,28 @@
-﻿
-int[] a = new int[] { 8, 8, 3, 0, 8, 6 };
-int p = 0;
-for(int i =0; i < a.Length; i++)
+﻿int[,] array = new int[,]
 {
-    if (a[i]%2!=0)
+    {1, 2, 3, 4 },
+    {5, 6, 7,8 },
+    {9, 1, 2, 3 },
+    {4, 5, 6, 7 }
+};
+
+int count = 0;
+
+for (int i = 0; i < array.GetLength(0), i++)
+{
+    for (int j = 0; j < array.GetLength(1); j++)
     {
-        p += a[i];
+        if (array[ i, j]% 2 == 0)
+        {
+            count++;
+        }
     }
 }
 
-Console.WriteLine(p + " " + ((-7)%2));
+Console.WriteLine(count);
 /*
-!29 3 -15 15 2 32 4 18 4 4
-3 10 -16 12 4 6 3 3 2  2
+7 9 6 7 8 7   9 8 9
 
-24 22 20 4 8 -6 -4 4 -12 18
+7 8 8 16 -8 3 3 19 -19 6
+ 
 */
